@@ -1,0 +1,16 @@
+{
+  "name": "pokedex",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "esbuild src/main.ts --bundle --platform=node --outfile=dist/index.js --format=esm",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
